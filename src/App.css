@@ -1,0 +1,25 @@
+/* .box{
+  display: flex;
+  justify-content: center;
+}
+.inputData{
+  height: 35vw;
+  width: 25%;
+  background-color: rgba(37, 151, 153, 0.682);
+  display: flex;
+  justify-content: center;
+  margin-top: 110px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 4);
+}
+.textArea{
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-top: 40px;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+} */
