@@ -14,7 +14,7 @@ const App = () => {
 
     <div className='info'>
       <h2 className='location'>
-        
+        app is running
       </h2>
     </div>
 
