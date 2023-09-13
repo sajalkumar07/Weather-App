@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap');
 
+
 body{
   margin: 0;
   padding: 0;
@@ -47,7 +48,7 @@ body{
   top: 50%;
   animation: float 3s infinite;
   color: #ffffff;
-  margin-top: 70px;
+  margin-top: 20px;
 }
 @keyframes float {
   0% {
@@ -72,6 +73,10 @@ body{
 .location-name{
   font-size: 30px;
 }
+.tempmin_max{
+  font-weight: 200;
+}
+
 
 .wave{
   position: absolute;
