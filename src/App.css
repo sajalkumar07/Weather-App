@@ -24,6 +24,7 @@ body{
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 4);
   position: relative;
   overflow: hidden;
+
 }
 
 .textArea{
@@ -37,6 +38,8 @@ body{
   padding-left: 20px;
   padding-right: 20px;
   position: absolute;
+  background-color: black;
+  color: white;
 }
 .info{
   position: absolute;
@@ -82,7 +85,7 @@ body{
 }
 
 .wave-1 {
-  animation: animate1 30s linear infinite;
+  animation: animate1 20s linear infinite;
   opacity: 0.1;
 }
 
@@ -93,10 +96,10 @@ body{
   100% {
     background-position: 1000px ;
   }
-}
+} 
 
 .wave-2 {
-  animation: animate2 20s linear infinite;
+  animation: animate2 25s linear infinite;
   opacity: .1;
 }
 
@@ -105,9 +108,9 @@ body{
     background-position: 100px;
   }
   100% {
-    background-position: -1000px;
+    background-position: 1000px;
   }
-}  
+}   
 
 .wave-3 {
   animation: animate3 15s linear infinite;
@@ -121,15 +124,4 @@ body{
   100% {
     background-position: 1000px;
   }
-} 
-@media screen and (max-width: 768px) {
-  .inputData {
-    width: 95%; 
-    height: 600px;
-  }
-  .box{
-    margin-bottom: 200px;
-  }
-  
-  
-}
+}  
