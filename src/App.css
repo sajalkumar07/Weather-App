@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap');
+
 .box{
   display: flex;
   justify-content: center;
+  font-family: 'Roboto', sans-serif;
 }
 .inputData{
   height: 35vw;
   width: 25%;
-  background-color: rgba(37, 151, 153, 0.682);
+  background-color: rgb(27, 151, 153);
   display: flex;
   justify-content: center;
   margin-top: 110px;
@@ -22,4 +25,44 @@
   font-size: 20px;
   padding-left: 20px;
   padding-right: 20px;
+}
+.info{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  animation: wave 3s infinite;
+}
+@keyframes wave {
+  0% {
+    transform: translateY(20);
+  }
+  50% {
+    transform: translateY(-5px); /* Move the content up slightly */
+  }
+  100% {
+    transform: translateY(10);
+  }
+}
+
+.location{
+  font-size: 40px;
+  margin: auto;
+}
+.location i{
+  font-size: 50px;
+  animation: wave-two 3s infinite;
+}
+.location-name{
+  font-size: 30px;
+}
+@keyframes wave-two {
+  0% {
+    transform: translateY(20);
+  }
+  50% {
+    transform: translateY(-5px); /* Move the content up slightly */
+  }
+  100% {
+    transform: translateY(10);
+  }
 }
