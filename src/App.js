@@ -9,12 +9,9 @@ const App = () => {
         <div className='inputData'>
           <input className='textArea' type='search' onChange={ (event) => {}}>
           </input>
-          <div className='wave-section'>
-            <div className='waves-one'></div>
-            <div className='waves-two'></div>
-            <div className='waves-three'></div>
-          </div>
-
+            <div className='wave wave-1'></div>
+            <div className='wave wave-2'></div>
+            <div className='wave wave-3'></div>
         </div>
         <div className='info'>
           <h2 className='location'>
