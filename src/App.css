@@ -126,6 +126,8 @@ body{
   .inputData {
     width: 95%; 
     height: 600px;
+  }
+  .box{
     margin-bottom: 200px;
   }
   
