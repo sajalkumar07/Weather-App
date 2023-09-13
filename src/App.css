@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap');
 
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #32909c;
+}
 .box{
   display: flex;
   justify-content: center;
@@ -8,12 +14,13 @@
 .inputData{
   height: 35vw;
   width: 25%;
-  background-color: rgb(27, 151, 153);
+  background-color:  #483D8B  ;
   display: flex;
   justify-content: center;
   margin-top: 110px;
   border-radius: 10px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 4);
+  
 }
 .textArea{
   width: 200px;
@@ -31,6 +38,7 @@
   text-align: center;
   top: 50%;
   animation: wave 3s infinite;
+  color: #ffffff;
 }
 @keyframes wave {
   0% {
