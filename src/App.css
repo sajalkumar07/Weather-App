@@ -5,6 +5,8 @@ body{
   padding: 0;
   box-sizing: border-box;
   background-color: #32909c;
+  overflow: hidden;
+  position: relative;
 }
 .box{
   display: flex;
@@ -20,6 +22,7 @@ body{
   margin-top: 110px;
   border-radius: 10px;
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 4);
+  position: relative;
   
 }
 .textArea{
@@ -40,6 +43,7 @@ body{
   top: 50%;
   animation: wave 3s infinite;
   color: #ffffff;
+  margin-top: 70px;
 }
 @keyframes wave {
   0% {
@@ -64,23 +68,18 @@ body{
 .location-name{
   font-size: 30px;
 }
-@keyframes wave-two {
-  0% {
-    transform: translateY(20);
-  }
-  50% {
-    transform: translateY(-5px); /* Move the content up slightly */
-  }
-  100% {
-    transform: translateY(10);
-  }
-}
-.wind-waves-one, .wind-waves-two, .wind-waves-three {
+.wave-section{
   position: absolute;
-  background-color: rgba(28, 167, 171, 0.51);
+  left: 0;
+  bottom: 0;
   opacity: 0.2;
-  top: 55%;
-  width: 384px;
-  height: 230px;
+  width: 100%;
+  height: 100px;
+  background: url(/public/wave.png);
   border-radius: 10px;
+  background-size: 900px 100px;
+}
+.wave-section .wave-one{
+  animation: animate 5s infinite;
+  z-index: 1000;
 }

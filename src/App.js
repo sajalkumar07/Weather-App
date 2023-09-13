@@ -8,8 +8,13 @@ const App = () => {
       <div className='box'>
         <div className='inputData'>
           <input className='textArea' type='search' onChange={ (event) => {}}>
-
           </input>
+          <div className='wave-section'>
+            <div className='waves-one'></div>
+            <div className='waves-two'></div>
+            <div className='waves-three'></div>
+          </div>
+
         </div>
         <div className='info'>
           <h2 className='location'>
@@ -21,10 +26,6 @@ const App = () => {
           Min : 5.25° Cel | Max : 5.25° Cel
           </h3>
         </div>
-        
-        <div className='wind-waves-one'></div>
-        <div className='wind-waves-two'></div>
-        <div className='wind-waves-three'></div>
       </div>
     </>
   )
