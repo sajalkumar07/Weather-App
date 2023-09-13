@@ -122,3 +122,11 @@ body{
     background-position: 1000px;
   }
 } 
+@media screen and (max-width: 768px) {
+  .inputData {
+    width: 95%; 
+    height: 600px;
+  }
+  
+  
+}
