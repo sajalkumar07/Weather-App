@@ -21,6 +21,10 @@ const App = () => {
           Min : 5.25° Cel | Max : 5.25° Cel
           </h3>
         </div>
+        
+        <div className='wind-waves-one'></div>
+        <div className='wind-waves-two'></div>
+        <div className='wind-waves-three'></div>
       </div>
     </>
   )
