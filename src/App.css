@@ -134,7 +134,7 @@ body{
 
 @media (max-width: 700px) {
   .inputData {
-    height: 500px; /* Adjust height as needed for smaller screens */
+    height: 500px;
     margin-top: 80px;
     width: 300px;
   }
