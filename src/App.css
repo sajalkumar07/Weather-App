@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Roboto&display=swap');
 
-
 body{
   margin: 0;
   padding: 0;
@@ -27,7 +26,6 @@ body{
   overflow: hidden;
 
 }
-
 .textArea{
   width: 200px;
   height: 50px;
@@ -41,41 +39,6 @@ body{
   background-color: black;
   color: white;
 }
-.info{
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  animation: float 3s infinite;
-  color: #ffffff;
-  margin-top: 20px;
-}
-@keyframes float {
-  0% {
-    transform: translateY(20);
-  }
-  50% {
-    transform: translateY(-5px); 
-  }
-  100% {
-    transform: translateY(10);
-  }
-}
-
-.location{
-  font-size: 40px;
-  margin: auto;
-}
-.location i{
-  font-size: 50px;
-  animation: wave-two 3s infinite;
-}
-.location-name{
-  font-size: 30px;
-}
-.tempmin_max{
-  font-weight: 200;
-}
-
 
 .wave{
   position: absolute;
@@ -129,10 +92,46 @@ body{
     background-position: 1000px;
   }
 }  
+
+
 .empty{
   position: absolute;
   top: 50%;
   font-size: 30px;
   color: #ffffff;
   animation: float 3s infinite;
+}
+.info{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  animation: float 3s infinite;
+  color: #ffffff;
+  margin-top: 20px;
+}
+@keyframes float {
+  0% {
+    transform: translateY(20);
+  }
+  50% {
+    transform: translateY(-5px); 
+  }
+  100% {
+    transform: translateY(10);
+  }
+}
+
+.location{
+  font-size: 40px;
+  margin: auto;
+}
+.location i{
+  font-size: 50px;
+  animation: wave-two 3s infinite;
+}
+.location-name{
+  font-size: 30px;
+}
+.tempmin_max{
+  font-weight: 200;
 }
