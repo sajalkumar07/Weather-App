@@ -38,7 +38,6 @@ body{
   font-size: 20px;
   padding-left: 20px;
   padding-right: 20px;
-  position: absolute;
   background-color: black;
   color: white;
 }
@@ -90,7 +89,7 @@ body{
 }
 
 .wave-1 {
-  animation: animate1 20s linear infinite;
+  animation: animate1 3s linear infinite;
   opacity: 0.1;
 }
 
@@ -104,7 +103,7 @@ body{
 } 
 
 .wave-2 {
-  animation: animate2 25s linear infinite;
+  animation: animate2 2s linear infinite;
   opacity: .1;
 }
 
@@ -118,7 +117,7 @@ body{
 }   
 
 .wave-3 {
-  animation: animate3 15s linear infinite;
+  animation: animate3 20s linear infinite;
   opacity: .1;
 }
 
@@ -130,3 +129,10 @@ body{
     background-position: 1000px;
   }
 }  
+.empty{
+  position: absolute;
+  top: 50%;
+  font-size: 30px;
+  color: #ffffff;
+  animation: float 3s infinite;
+}
