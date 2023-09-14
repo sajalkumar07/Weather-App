@@ -37,7 +37,7 @@ const App = () => {
        ):(
         <div className='info'>
           <h2 className='location'>
-            <i className="fa-solid fa-street-view"></i>
+            <i id='icon' className="fa-solid fa-street-view"></i>
           </h2>
           <h2 className='location-name'>{search}</h2>
           <h1 className='temp'>{city.temp}° Cel</h1>

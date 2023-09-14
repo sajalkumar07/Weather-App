@@ -4,8 +4,6 @@ body{
   margin: 0;
   padding: 0;
   background-color: #32909c;
-  overflow: hidden;
-  position: relative;
 }
 .box{
   display: flex;
@@ -42,7 +40,6 @@ body{
 
 .wave{
   position: absolute;
-  left: 0;
   bottom: 0;
   opacity: 0;
   width: 100%;
@@ -93,7 +90,6 @@ body{
   }
 }  
 
-
 .empty{
   position: absolute;
   top: 50%;
@@ -135,3 +131,23 @@ body{
 .tempmin_max{
   font-weight: 200;
 }
+
+@media (max-width: 700px) {
+  .inputData {
+    height: 500px; /* Adjust height as needed for smaller screens */
+    margin-top: 80px;
+    width: 300px;
+  }
+  .info {
+    font-size: 12px;
+  }
+  .location-name{
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+
